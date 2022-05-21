@@ -1,0 +1,27 @@
+{
+  "name": "rest_api",
+  "version": "1.0.0",
+  "description": "A mini app to practise the REST API  This is small project on REST API using NodeJs The obective is to learn how to create routes and use the GET, POST, PATCH and DELETE. I'll be making use of express, Mongoose and some other dependencies..... The mini app would be consist of making a small cart with products and order routes",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amaboh/REST_API.git"
+  },
+  "author": "Amabo with an H",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amaboh/REST_API/issues"
+  },
+  "homepage": "https://github.com/amaboh/REST_API#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
